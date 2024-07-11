@@ -16,7 +16,7 @@
 
     <script>
     (async function() {
-        const { text } = await( await fetch(`/api/message_copy`)).json();
+        const { text } = await( await fetch(`/api/nijigaku`)).json();
         document.querySelector('#name').textContent = text;
     }());
     </script>
